@@ -2,7 +2,7 @@ import React from 'react'
 
 function SearchHeader() {
   return (
-    <header className='bg-gradient-to-r from-purple-500 to-green-600 h-[300px] flex justify-center items-center '>
+    <header className='bg-gradient-to-r from-purple-500 to-green-600 h-[300px] flex-center'>
       <div className='text-center'>
         <h1 className='text-white text-4xl'>Pokemon Details</h1>
         <p className='text-white text-lg'>Search Your Pokemon</p>

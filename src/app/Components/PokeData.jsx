@@ -30,8 +30,7 @@ function PokeData() {
         }
         fetchPokeData()
     }, [])
-
-
+    
     return (
         <div className='container text-center mx-auto'>
             {loading ? (
