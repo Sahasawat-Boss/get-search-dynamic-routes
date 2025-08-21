@@ -24,3 +24,7 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.poke-card-css{
+  @apply flex justify-center items-center p-3 shadow-md transition cursor-pointer rounded-lg hover:scale-105 duration-200
+}
