@@ -4,8 +4,8 @@ import SearchHeader from "./Components/SearchHeader";
 export default function Home() {
   return (
     <div>
-      <SearchHeader/>
-      Page
+      <SearchHeader />
+      Page Content
     </div>
   );
 }
