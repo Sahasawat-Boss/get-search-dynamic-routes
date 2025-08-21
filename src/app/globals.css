@@ -30,5 +30,9 @@ body {
 }
 
 .poke-card-css{
-  @apply flex justify-center items-center p-3 shadow-md transition cursor-pointer rounded-lg hover:scale-105 duration-200
+  @apply bg-white flex justify-center items-center p-3 shadow-md transition rounded-lg z-99 
+}
+
+.hover{
+  @apply cursor-pointer hover:scale-110 transition duration-200
 }

@@ -39,7 +39,7 @@ function PokeData() {
                 <div className='grid grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-1 overflow-hidden'>
                     {poke.map((val, index) => (
                         <Link key={index + 1} href={`/pokeinfo/[id]`} as={`/pokeinfo/${index + 1}`}>
-                            <div key={index} className='poke-card-css'>
+                            <div key={index} className='poke-card-css hover'>
                                 <div>
                                     <h3 className='text-lg font-semibold'>{val.name}</h3>
                                     <Image src={`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/${index + 1}.png`}
